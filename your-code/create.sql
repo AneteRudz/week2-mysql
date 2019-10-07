@@ -43,10 +43,10 @@ CREATE TABLE Salesperson (
 
  CREATE TABLE Store (
   ID int,
-  StaffID int,
   StoreID int,
-  Car int,
-  CarMark varchar(50)
+  Staff int,
+  CarType varchar(50),
+  Cars int
   );
 
 CREATE TABLE Supplier (
